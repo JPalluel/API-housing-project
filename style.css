@@ -1,0 +1,82 @@
+*{
+    margin: O;
+    padding: 0;
+    box-sizing: border-box;
+}
+   
+
+
+body{
+    background-image: url("https://images.pexels.com/photos/374023/pexels-photo-374023.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
+    background-size: cover;
+}
+
+
+
+header{
+    margin: auto;
+    width :60%;
+    height: 100px;
+    background-color: #fcfcfc;
+    text-align:center;
+    color: rgb(29, 27, 27);
+    font-weight: bold;
+    font-size: 50px;
+    padding-bottom: -50px;
+
+}
+hr { background-color: rgb(56, 54, 54);
+     height: 5px; 
+     border: 0; }
+
+h1{
+    font-weight: bold;
+    padding-top: 20px;
+    text-align:center;
+    font-size: 50px;
+}
+
+h2{
+    text-align: center;
+}
+
+#required{
+    font-size: 12px;
+    padding-bottom:-10px;
+}
+
+form{
+    margin: auto;
+    width: 60%;
+    line-height: 2;
+    font-size: 15px;
+    padding: 50px;
+    background-color: #fcfcfc;
+    padding-top: 1px;
+}
+
+.label{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+input{
+    font-weight: lighter;
+    border-radius: 8px;
+    border: 1px solid rgb(56, 54, 54);
+    height: 20px;
+}
+
+#submit{
+    margin-left: 250px;
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    font-size: 15px;
+    border:2px solid rgb(56, 54, 54);
+    font-weight: bold;
+}
+
+#result{
+    text-align: center;
+}
